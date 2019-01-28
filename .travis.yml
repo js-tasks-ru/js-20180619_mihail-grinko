@@ -26,7 +26,11 @@ env:
   global:
     - NODE_ENV=testing
     - ARTIFACTS_BUCKET=js-tasks-ru
+    - secure: >-
+        vEAtM4tsRvPjsC0cjkgFoL5OrOn152xWTN+TKjLxsO1/m9po4G0URPGSPvjMFpn8/mVOTSjVIdRj+uhECwgQiJGtyCLLYPV+aY+HVSE1ZI4Jj+vtMQhVjMwF7Wp3PWTQfkc2Jnzirv9nyprZ8AyGcyHuh4fuRIfWXChBMHZPUvPjC5wsvCoJ14e91FvH3NG6xC2hdrneU/jls2m1S6SJHCP8Ma9JxY68VEjS30Hb+9t02OT++0sjBk8TJVE+UXbQjxzVqznxT0JHq2F8bEOpK+x9nA8vg/CPFf6S03kW14Kaqt4h6Y06UHKES7cTOh4pEGe4ygO1bMtTIlE3hT2G5KhhzkTEeU8xG9di7Am1qlP9PRnpySMXso4EzaqEQfGT27Xiculc8Gl3zaYc0wWxvk/6zyAiIZZFrmqYODvjSwLPcsiKJutkAz5k6tejYV0FMiRM7Wqz0hKBMqp1VqYhAuKukobcq0fYUpOgA2o5eliPdOw7RTQIk4MSYze46FCdRwF9Ork36Mas5rVmpcnyqfuME/Uyr/tf/W6XHTU8aazYqEDvLkvG7WJChLcuB5QoY8NEurE/4fIBIzFaSZRr6L6UMmw1++9zyDVLB75L2qq2XX2Nlv/DEhxHcm61C4uh/ZDHLZCObLaO2MSGCbWVjpQ1opzQ6xFZtmA5oNiwN+g=
+    - secure: >-
+        wNQC+FAbMYToaJgnCzyuJlTB1YlEJSug/F7AxdA/hj4GE6e286BDyZ6VXYg/zPuSTiHQeIG1rwsQNXxP4GTOkL+BjAflLRDrnyMrFZybT81q506iaxygFGOHLRrOToekTJfrh4TT8j/5vSYnjm3iU7JHcJZ7OBMlRWKtLslrJtNKnGLYGIgRrsM+hQG2P/SEs4kiXuNb8AS/wT5hw7PVjzeJOc98yXrWQYtJsk8qhI4+KS00LkgI1nuZSpecZ5+9kXSR9FsNh9723zz1qlht4alS5RuE9QNatYe5iwMhGEBswMxZNlYEcwMy1+q4CL31MW/VcmpRYMLacnasWJ/mEwdsnoPkxZyi+UQg+UPPGw8vvEseeRMcDg/JksDYq36VeY4bOcZZ+Nwz4/RO1lJIN7sPasl/HlDccegz9bLhzZKw2cNRiwFBu4L2XDRjgTEcSIymO2u8MqhXlAeIbXTrIWJrhWI2vKdGRa/3/6cDShDBFqQSwftxagfxXovwCrzDQXj63uKHQWq8y5QGxY7g+Sz/wL+xPm9wQoA7F75bSPeCg5pLwOk8/sQH0Qk1qrr46g3Uho9leAF9zLUyjyT3N0ztoRBoz6+Y7/WZlX4V5IGh8Bmark0cQHgbLa6KktzUi5iK5sLGLbbQZJTU26Ehn8iqe7bAUkOpf7P2dXismxQ=
 script:
   - npm run test
 notifications:
-  webhooks: 'http://learn.javascript.ru/automation/ci/build'
+  webhooks: 'http://testhook.javascript.ru/automation/ci/build'
